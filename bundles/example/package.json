@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "nodecg": {
+    "compatibleRange": "^1.0.0",
+    "dashboardPanels": [
+      {
+        "width": 2,
+        "name": "test",
+        "title": "コメント",
+        "file": "test.html"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}
+

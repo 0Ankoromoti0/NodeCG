@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <input id="comment" type="text">
+  <button id="submitButton">反映</button>
+</body>
+<script>
+  const comment = document.getElementById("comment");
+  const submitButton = document.getElementById("submitButton");
+
+  const testRep = nodecg.Replicant("test");
+
+  submitButton.addEventListener("click", () => {
+    testRep.value = comment.value;
+  });
+</script>
+
+</html>

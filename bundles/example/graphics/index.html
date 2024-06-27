@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div id="simple" style="font-size: 150px; color: white;"></div>
+</body>
+
+<script>
+  const simple = document.getElementById("simple");
+
+  const testRep = nodecg.Replicant("test", { defaultValue: "" });
+
+  testRep.on("change", (newValue) => {
+    simple.innerText = newValue;
+  });
+</script>
+
+</html>
